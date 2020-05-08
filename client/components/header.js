@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 const Header = () => {
-  const [toggled, toggle] = useState(false)
+  const [toggled, toggle] = useState(true)
 
   return (
     <nav className="flex items-center justify-between flex-wrap bg-teal-500 p-6">
@@ -19,7 +19,7 @@ const Header = () => {
           type="button"
           id="toggle-button"
           className="font-semibold text-xl tracking-tight"
-          onClick={() => toggle(!toggled)}
+          onClick={() => toggle(true)}
         >
           Tailwind CSS
         </button>

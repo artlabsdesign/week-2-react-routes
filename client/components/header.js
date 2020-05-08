@@ -27,16 +27,11 @@ const Header = () => {
       {toggled && (
         <div
           id="menu"
-          role="link"  
-          tabIndex={0}
           className="block"
-          onClick={() => {window.location.href = 'https://google.com'}}
-          onKeyPress={() => {window.location.href = 'https://google.com'}}
         >
-          <button
-            type="button"
+          <a 
+            href="https://google.com"
             className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
-
           >
             <svg
               className="fill-current h-3 w-3"
@@ -46,7 +41,7 @@ const Header = () => {
               <title>Menu</title>
               <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
             </svg>
-          </button>
+          </a>
         </div>
       )}
     </nav>

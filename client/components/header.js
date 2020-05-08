@@ -19,7 +19,7 @@ const Header = () => {
           type="button"
           id="toggle-button"
           className="font-semibold text-xl tracking-tight"
-          onClick={() => toggle(true)}
+          onClick={() => toggle(!toggled)}
         >
           Tailwind CSS
         </button>

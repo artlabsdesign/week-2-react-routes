@@ -8,7 +8,7 @@ const Profile = () => {
   return (
     <div>
       <Head title="Hello" />
-      <Link to="/dashboard/">Go to Root</Link>
+      <Link to="/dashboard">Go to Root</Link>
       <Link to="/dashboard/main">Go to Main</Link>
       <div id="title">Profile</div>
       <div id="username">{ username }</div>

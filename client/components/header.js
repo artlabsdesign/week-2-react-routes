@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 
 const Header = () => {
   const [toggled, toggle] = useState(false)
+  
 
   return (
     <nav className="flex items-center justify-between flex-wrap bg-teal-500 p-6">
